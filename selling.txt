@@ -1,0 +1,150 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace PharmacyManangement
+{
+    public partial class Selling : Form
+    {
+        public Selling()
+        {
+            InitializeComponent();
+            ShowMed();
+        }
+
+        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PharmacyManagementDb;Integrated Security=True");
+
+        private void UpdateQty()
+        {
+            try
+            {
+                int newQty = Stock - Convert.ToInt32(MedQty.Text);
+                con.Open();
+                SqlCommand cmd = new SqlCommand("Update MedicineTbl set MedQty=@MQ where MedNum=@MKey", con);
+                
+                cmd.Parameters.AddWithValue("@MQ", newQty);
+                
+                cmd.Parameters.AddWithValue("@MKey", key);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Medicine Updated");
+                con.Close();
+                ShowMed();
+                //Reset();
+            }
+            catch (Exception Ex)
+            {
+
+                MessageBox.Show(Ex.Message);
+            }
+        }
+        private void ShowMed()
+        {
+            con.Open();
+            string Query = "Select * from MedicineTbl";
+            SqlDataAdapter sda = new SqlDataAdapter(Query, con);
+            SqlCommandBuilder Builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            MedDTGV.DataSource = ds.Tables[0];
+            con.Close();
+        }
+
+        int key = 0, Stock;
+        int MedId,MedTot,MedPrice,MedQty;
+        int pos = 60;
+        private void label14_Click(object sender, EventArgs e)
+        {
+            printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("pprnm", 285, 600);
+            if (printPreviewDialog1.ShowDialog()==DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
+        }
+
+        int n,GrdTotal = 0;
+        private void MedSaveBtn_Click(object sender, EventArgs e)
+        {
+            if (MedQty.Text == "" || Convert.ToInt32(MedQty.Text)> Stock )
+            {
+                MessageBox.Show("Enter correct Quantity");
+            }
+            else
+            {
+                int total = Convert.ToInt32(MedQty.Text) * Convert.ToInt32(MedPrice.Text);
+                DataGridViewRow newRow = new DataGridViewRow();
+                newRow.CreateCells(BillDTGV);
+                newRow.Cells[0].Value = n + 1;
+                newRow.Cells[1].Value = MedName.Text;
+                newRow.Cells[2].Value = MedQty.Text;
+                newRow.Cells[3].Value = MedPrice.Text;
+                newRow.Cells[4].Value = total;
+                BillDTGV.Rows.Add(newRow);
+                GrdTotal = GrdTotal + total;
+                Totallbl.Text = " Total " + GrdTotal;
+                n++;
+                UpdateQty();
+            }
+        }
+        
+
+        private void MedEditBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+        string MedName;
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString("Pharmacy", new Font("Century Gothic", 12, FontStyle.Bold), Brushes.Red, new Point(80));
+            e.Graphics.DrawString("ID MDCINE PRICE QTY TOTAL", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(26,40));
+            foreach (DataGridViewRow row in BillDTGV.Rows)
+            {
+                MedId = Convert.ToInt32(row.Cells["Column 1"].Value);
+                MedName = "" + row.Cells["Column 2"].Value;
+                MedPrice = Convert.ToInt32(row.Cells["Column 3"].Value);
+                MedQty = Convert.ToInt32(row.Cells["Column 4"].Value);
+                MedTot = Convert.ToInt32(row.Cells["Column 5"].Value);
+                e.Graphics.DrawString(""+ MedId, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(26,pos));
+                e.Graphics.DrawString("" + MedName, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(45,pos));
+                e.Graphics.DrawString("" + MedPrice,  new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(120,pos));
+                e.Graphics.DrawString("" + MedQty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(170,pos));
+                e.Graphics.DrawString("" + MedTot, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(235,pos));
+                pos = pos + 20;
+            }
+            e.Graphics.DrawString(" Grand Total : Total "+GrdTotal, new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Crimson, new Point(50,pos+50));
+            e.Graphics.DrawString(" ********* Pharma *********** " + GrdTotal, new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Crimson, new Point(10, pos + 85));
+            BillDTGV.Rows.Clear();
+            BillDTGV.Refresh();
+            pos = 100;
+            GrdTotal = 0;
+            n = 0;
+           
+        }
+
+        private void MedDTGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            MedName.Text = MedDTGV.SelectedRows[0].Cells[1].Value.ToString();
+            //MedCbx.SelectedItem = MedDTGV.SelectedRows[0].Cells[2].Value.ToString();
+            Stock = Convert.ToInt32(MedDTGV.SelectedRows[0].Cells[3].Value.ToString());
+            MedPrice.Text = MedDTGV.SelectedRows[0].Cells[4].Value.ToString();
+            //MedManCbx.SelectedValue = MedDTGV.SelectedRows[0].Cells[5].Value.ToString();
+            //MedManName.Text = MedDTGV.SelectedRows[0].Cells[6].Value.ToString();
+            if (MedName.Text == "")
+            {
+                key = 0;
+            }
+            else
+            {
+                key = Convert.ToInt32(MedDTGV.SelectedRows[0].Cells[0].Value.ToString());
+            }
+        }
+
+    }
+}
+

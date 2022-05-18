@@ -1,0 +1,97 @@
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.exe.config
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Properties.Resources.resources
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CopyComplete
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Dashboard.resources
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Medicines.resources
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Manufacturer.resources
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Customers.resources
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Sellers.resources
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\Guna.UI2.dll
+C:\Users\ACER\Desktop\Yeni klasör\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Selling.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.exe.config
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\Guna.UI2.dll
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Customers.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Dashboard.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Manufacturer.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Medicines.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Properties.Resources.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Sellers.resources
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CopyComplete
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\Yeni klasör\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.exe.config
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\bin\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\bin\Debug\Guna.UI2.dll
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Customers.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Dashboard.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Manufacturer.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Medicines.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Properties.Resources.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Sellers.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Selling.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CopyComplete
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.Login.resources
+C:\Users\ACER\Desktop\PharmacyManangement\PharmacyManangement\obj\Debug\PharmacyManangement.AdminLogin.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\PharmacyManangement.exe.config
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\PharmacyManangement.pdb
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\Guna.UI2.dll
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.AdminLogin.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Customers.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Dashboard.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Login.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Manufacturer.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Medicines.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Properties.Resources.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Sellers.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Selling.resources
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CopyComplete
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.exe
+C:\Users\ACER\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.pdb
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\PharmacyManangement.exe.config
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\PharmacyManangement.exe
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\PharmacyManangement.pdb
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\Guna.UI2.dll
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\bin\Debug\Bunifu_UI_v1.5.3.xml
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.AssemblyReference.cache
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.SuggestedBindingRedirects.cache
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.AdminLogin.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Customers.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Dashboard.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Login.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Manufacturer.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Medicines.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Properties.Resources.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Sellers.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.Selling.resources
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.GenerateResource.cache
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CoreCompileInputs.cache
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.csproj.CopyComplete
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.exe
+C:\Users\Z Serva Yıldız\Desktop\ECZANE_OTOMASYON\PharmacyManangement\obj\Debug\PharmacyManangement.pdb

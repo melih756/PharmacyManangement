@@ -1,0 +1,42 @@
+ public partial class Dashboard : Form
+    {
+        public Dashboard()
+        {
+            InitializeComponent();
+            CountMed();
+            CountSeller();
+            CountCust();
+        }
+        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PharmacyManagementDb;Integrated Security=True");
+        private void CountMed()
+        {
+            con.Open();
+            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from MedicineTbl",con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            MedNum.Text = dt.Rows[0][0].ToString();
+            con.Close();
+
+        }
+
+        private void CountSeller()
+        {
+            con.Open();
+            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from SellerTbl", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            SNum.Text = dt.Rows[0][0].ToString();
+            con.Close();
+
+        }
+
+        private void CountCust()
+        {
+            con.Open();
+            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) from CustomerTbl", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            CustNum.Text = dt.Rows[0][0].ToString();
+            con.Close();
+
+        }

@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace PharmacyManangement
+{
+    public partial class Manufacturer : Form
+    {
+        public Manufacturer()
+        {
+            InitializeComponent();
+        }
+        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PharmacyManagementDb;Integrated Security=True");
+
+        private void Manufacturer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SaveBtn_Click(object sender, EventArgs e)
+        {
+            if (ManAddTbx.Text == "" || ManNameTbx.Text == "" || ManPhoneTbx.Text == "")
+            {
+                MessageBox.Show("Missing İnformation");
+            }
+            else
+            {
+                try
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("İnsert into ManufacturerTbl(ManName,ManAdd,ManPhone,ManJDate)values(@MN,@MA,@MP,@MJD)", con);
+                    cmd.Parameters.AddWithValue("@MN", ManNameTbx.Text);
+                    cmd.Parameters.AddWithValue("@MA", ManAddTbx.Text);
+                    cmd.Parameters.AddWithValue("@MP", ManPhoneTbx.Text);
+                    cmd.Parameters.AddWithValue("@MJD", ManJDate.Value.Date);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Manufacturer Added");
+                    con.Close();
+                }
+                catch (Exception Ex)
+                {
+
+                    MessageBox.Show(Ex.Message);
+                }
+            }
+        }
+    }
+}
